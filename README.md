@@ -12,3 +12,9 @@ run Metro builder:
 run the emulator (android)
 
 `react-native run-android`
+
+Note:
+
+Development is for Android, to make the iOS index file:
+
+`ln -s index.js index.ios.js`
