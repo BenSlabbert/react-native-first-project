@@ -5,6 +5,8 @@ To start:
 
 `cd` into project
 
+`npm install`
+
 run Metro builder:
 
 `react-native start --port=8081`
