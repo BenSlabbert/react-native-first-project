@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-const Button = ( { onPress } ) => {
+const Button = ( { onPress, children } ) => {
 
     const { textStyle, buttonStyle } = styles;
 
@@ -10,7 +10,7 @@ const Button = ( { onPress } ) => {
             style={buttonStyle}
             onPress={onPress}>
             <Text style={textStyle}>
-                Purchase
+                {children}
             </Text>
         </TouchableOpacity>
     );
