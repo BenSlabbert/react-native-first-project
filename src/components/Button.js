@@ -10,7 +10,7 @@ const Button = () => {
             style={buttonStyle}
             onPress={() => console.log( 'hello' )}>
             <Text style={textStyle}>
-                click me
+                Purchase
             </Text>
         </TouchableOpacity>
     );
